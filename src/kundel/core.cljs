@@ -1,4 +1,4 @@
-(ns min-reagent.core
+(ns kundel.core
   (:require
     [reagent.core :as r]))
 
