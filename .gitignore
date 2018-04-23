@@ -1,2 +1,4 @@
 .idea/
 min-reagent.iml
+resources/public/js/
+target/
