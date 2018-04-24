@@ -5,7 +5,9 @@
 
   :plugins [[lein-cljsbuild "1.1.7"]]
 
-  :clean-targets ^{:protect false} ["resources/public/js/out" "resources/public/js/min-out" "target"]
+  :source-paths ["src"]
+
+  :clean-targets ^{:protect false} ["resources/public/js" "target"]
 
   :figwheel {:nrepl-port 7002}
 

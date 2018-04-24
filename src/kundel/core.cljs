@@ -7,6 +7,7 @@
     [:h1 "Hello Reagent"]
     [:p "ClojureScript + React + Atoms + Hiccup"]])
 
-(r/render
-  [my-app]
-  (js/document.getElementById "appdiv"))
+(defn ^:export render []
+  (r/render
+    [my-app]
+    (js/document.getElementById "appdiv")))
