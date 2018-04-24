@@ -2,3 +2,4 @@
 min-reagent.iml
 resources/public/js/
 target/
+figwheel_server.log
